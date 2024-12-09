@@ -4,8 +4,7 @@ pipeline{
      stage('Build'){
        steps{
          script{
-           bat 'docker build -t getting-started-app .'
-           
+          bat 'C:\\Windows\\System32\\cmd.exe /c docker build -t getting-started-app .'
          }
        }
      }
